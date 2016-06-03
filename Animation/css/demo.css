@@ -47,10 +47,10 @@ h1 {
 
 .col {
 	border: 1px solid grey;
-	width: 31.3333333%;
+	width: 31.5%;
 	float: left;
 	margin: 10px;
-	padding: 26px;
+	padding: 28px;
 	cursor: pointer;
 }
 
@@ -66,3 +66,21 @@ h1 {
 	position: relative;
 	animation: end 5s  infinite;
 }
+
+.thumb1 img {
+	opacity: 0.5;
+	transition: all 2s ease-in-out
+}
+
+.thumb1 img:hover {
+	opacity: 2;
+}
+
+.thumb2 img {
+	opacity: 2;
+	transition: opacity 2s ease-in-out
+}
+.thumb2 img:hover {
+	opacity: 0.5;
+}
+
