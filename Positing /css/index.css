@@ -1,0 +1,134 @@
+/*----------- style cho trang web -------------*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #f4f6f4;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 30px 0 10px 0;
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	font-family: fantasy;
+}
+
+h2 {
+	text-align: center;
+	font-size: 15px;
+}
+
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+
+a:hover, a:active {
+	color: #6fade0;
+}
+
+.container {
+	max-width: 1280px;
+	padding-left: 150px;
+	margin: auto;
+	position: relative;
+
+}
+
+
+
+/*------------- style cho header --------------------*/
+
+.menu {
+	position: absolute;
+	height: 100%;
+	background-color: #78c580;
+	width: 150px;
+	left: 0;
+	border: 1px solid #f2901d;
+	text-align: center;              
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li {
+	height: 100px;
+	line-height: 100px;
+}
+
+.menu li a {
+	display: block;
+	color: #f2901d;
+	padding: 0 1em;
+	border-bottom: 1px solid #f2901d;
+}
+
+.menu li:hover {
+	background-color: #fff
+}
+
+.logo {
+	text-align: center;
+}
+/*----------------------- style cho content ---------------------*/
+
+.sp {
+	border: 1px solid #78c580;
+	border-top-width: 5px;
+	float: left;
+	width: 50%;
+	padding: 15px;
+}
+
+img {
+	max-width: 100%;
+}
+
+#content img {
+	width: 300px;
+	height: 250px;
+	display: block;
+	margin: auto;
+	transition: all 1s;
+	z-index: 1;
+}
+
+#content img:hover {
+	transform: scale(1.1);
+}
+
+
+/*------------------------- style cho footer ---------------------*/
+
+#footer {
+	color: #f2901d;
+	text-align: center;
+	bottom: 30px;
+}
+
+/*------------------------- style back-to-top --------------------*/
+
+#back-top img {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	z-index: 2;
+}
+
