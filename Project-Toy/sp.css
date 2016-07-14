@@ -1,0 +1,25 @@
+/*.box {
+	width: 100%;
+    clear: both;
+    background: #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.pull-right {
+	float: right;
+    padding-left: 10px;
+}
+.box-heading {
+	background-color: #0a0a0a;
+    padding: 9px 20px 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+*/
+
+#detail-block {
+	float: left;
+    width: 100%;
+}
