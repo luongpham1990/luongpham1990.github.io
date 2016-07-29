@@ -29,7 +29,7 @@
 				<!-- logo -->
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<div class="nav navbar-nav navbar-left logo">
-						<a href="#"><img src="img/bitmap.png" style="width:68px;height:50px;"></a>
+						<a href="index.html"><img src="img/bitmap.png" style="width:68px;height:50px;"></a>
 					</div>
 				</div>
 				<!-- End logo -->
@@ -38,7 +38,7 @@
 					<ul class="nav navbar-nav navbar-right register">
 						<li> <a data-toggle="modal" href="#registerModal"> <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>Đăng kí</a></li>
 						<li><a data-toggle="modal" href="#loginModal"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span>Đăng nhập</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart 0</a></li>
+						<li><a href="cartpage.html"><span class="glyphicon glyphicon-shopping glyphicon-shopping-cart"></span> Cart 0</a></li>
 					</ul>
 				</div>
 				<!-- End link login -->
@@ -59,13 +59,13 @@
 						<div class="collapse navbar-collapse" id="myNavbar">
 							<ul class="nav navbar-nav">
 								<!-- Home -->
-								<li><a href="#" class="dropdown-toggle"><span class="glyphicon glyphicon-home"></span></a></li>
+								<li><a href="index.html" class="dropdown-toggle"><span class="glyphicon glyphicon-home"></span></a></li>
 								<!-- end home -->
 
 								<li><a class="dropdown-toggle" data-toggle="dropdown" href="#" class="drop-color-a">Sản Phẩm<span class="caret"></span></a>
 									<ul id="ul1" class="dropdown-menu">
-										<li><a href="#" class="drop-color-a">Bé trai</a></li>
-										<li><a href="#" class="drop-color-a">Bé gái</a></li>
+										<li><a href="betrai.html" class="drop-color-a">Bé trai</a></li>
+										<li><a href="begai.html" class="drop-color-a">Bé gái</a></li>
 										<li><a href="#" class="drop-color-a">Mô hình</a></li>
 										<li><a href="#" class="drop-color-a">Máy móc - Thiết bị</a></li>
 										<li><a href="#" class="drop-color-a">Búp bê</a></li>
@@ -79,8 +79,8 @@
 								<!-- Theo độ tuổi -->
 								<li> <a class="dropdown-toggle drop-color-a" data-toggle="dropdown" href="#" >Độ tuổi <span class="caret"></span></a>
 									<ul id="ul2" class="dropdown-menu">
-										<li><a href="#" class="drop-color-a">2-6 Tuổi</a></li>
-										<li><a href="#" class="drop-color-a">7-12 Tuổi</a></li>
+										<li><a href="2-6.html" class="drop-color-a">2-6 Tuổi</a></li>
+										<li><a href="7-12.html" class="drop-color-a">7-12 Tuổi</a></li>
 										<li><a href="#" class="drop-color-a">12-16 Tuổi</a></li>
 									</ul>
 									<!-- End Theo độ tuổi -->
@@ -88,14 +88,14 @@
 									<!--Theo giá  -->
 									<li> <a class="dropdown-toggle drop-color-a" data-toggle="dropdown" href="#" >Giá <span class="caret"></span></a>		
 										<ul id="ul3" class="dropdown-menu">
-											<li><a href="#" class="drop-color-a">0-5$</a></li>
-											<li><a href="#" class="drop-color-a">5-10$</a></li>
-											<li><a href="#" class="drop-color-a">10-50$</a></li>
-											<li><a href="#" class="drop-color-a">50-100$</a></li>
-											<li><a href="#" class="drop-color-a">100-150$</a></li>
-											<li><a href="#" class="drop-color-a">150-200$</a></li>
-											<li><a href="#" class="drop-color-a">200-250$</a></li>
-											<li><a href="#" class="drop-color-a">250$+</a></li>
+											<li><a href="index.html" class="drop-color-a">0-5$</a></li>
+											<li><a href="index.html" class="drop-color-a">5-10$</a></li>
+											<li><a href="index.html" class="drop-color-a">10-50$</a></li>
+											<li><a href="index.html" class="drop-color-a">50-100$</a></li>
+											<li><a href="index.html" class="drop-color-a">100-150$</a></li>
+											<li><a href="index.html" class="drop-color-a">150-200$</a></li>
+											<li><a href="index.html" class="drop-color-a">200-250$</a></li>
+											<li><a href="index.html" class="drop-color-a">250$+</a></li>
 										</ul>
 									</li>
 									<!-- End theo giá -->
@@ -115,10 +115,10 @@
 									<!-- End Thương hiệu -->
 									<!-- Khuyến Mãi -->
 									<li>
-										<a class="dropdown-toggle drop-color-a" data-toggle="dropdown" href="#">Khuyến Mãi<span class="caret"></span></a>
+										<a class="dropdown-toggle drop-color-a" data-toggle="dropdown" href="index.html">Khuyến Mãi<span class="caret"></span></a>
 										<ul id="ul5" class="dropdown-menu">
-											<li><a href="#" class="drop-color-a">Thông Tin Khuyến Mãi</a></li>
-											<li><a href="#" class="drop-color-a">Khuyến Mãi Giờ Vàng</a></li>
+											<li><a href="index.html" class="drop-color-a">Thông Tin Khuyến Mãi</a></li>
+											<li><a href="index.html" class="drop-color-a">Khuyến Mãi Giờ Vàng</a></li>
 										</ul>
 									</li>
 									<!-- end Khuyến Mãi -->
@@ -143,11 +143,52 @@
 		<section>
 			<!-- -------------------------------------------- -->
 			<!-- bat dau slider -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+
+					<div class="item active">
+						<img src="img/sale1.png" alt="Chania" width="460" height="345">
+						
+					</div>
+
+					<div class="item">
+						<img src="img/sale2.png" alt="Chania" width="460" height="345">
+						
+					</div>
+
+					<div class="item">
+						<img src="img/sale3.jpg" alt="Flower" width="460" height="345">
+						
+					</div>
+
+					<div class="item">
+						<img src="img/sale4.png" alt="Flower" width="460" height="345">
+						
+					</div>
+
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
 			<!-- ket thuc slider -->
-
-
-
-
 			<!-- -------------------------------------------- -->
 			<!-- bat dau baner sale -->
 			<div>
@@ -171,6 +212,14 @@
 							<h2>Sản phẩm từ 2-6 tuổi</h2>
 						</div>
 						<!-- ke thuc tieu de SP moi -->
+						<div class="row">
+							<div class="bread-crumd">
+								<ol class="breadcrumb">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="begai.html">2-6 Tuổi</a></li>
+								</ol>
+							</div>
+						</div>
 
 						<div class="products-gird seemore">
 							<!-- ------------------SP1------------------ -->
@@ -179,7 +228,7 @@
 								<div class="info-product">
 									<!-- anh sp -->
 									<div class="img-product img-img">
-										<a href="#"><img src="img/nu-hoang-elsa-du-tiec1.jpg" class="img-responsive" alt="nu-hoang-elsa-du-tiec"></a>
+										<a href="sp1.html"><img src="img/nu-hoang-elsa-du-tiec1.jpg" class="img-responsive" alt="nu-hoang-elsa-du-tiec"></a>
 										<span class="info-hover animated fadeInUp"></span>
 									</div>
 									<!-- ket thuc anh sp -->
@@ -213,9 +262,11 @@
 								<!-- dat mua sp -->
 								<div class="actions">
 									<button type="button" title="Add to Cart" class="button btn-lg btn-cart prodlist-btn big" onclick="setLocation()"> 
-										<span class="ic-cart glyphicon glyphicon-shopping-cart">
-											Thêm vào giỏ	
-										</span>
+										<a href="cartpage.html">
+											<span class="ic-cart glyphicon glyphicon-shopping-cart">
+												Thêm vào giỏ	
+											</span>
+										</a>
 									</button>
 								</div>
 								<!-- ket thuc dat mua sp -->
@@ -262,9 +313,11 @@
 								<!-- dat mua sp -->
 								<div class="actions">
 									<button type="button" title="Add to Cart" class="button btn-lg btn-cart prodlist-btn big" onclick="setLocation()"> 
-										<span class="ic-cart glyphicon glyphicon-shopping-cart">
-											Thêm vào giỏ	
-										</span>
+										<a href="cartpage.html">
+											<span class="ic-cart glyphicon glyphicon-shopping-cart">
+												Thêm vào giỏ	
+											</span>
+										</a>
 									</button>
 								</div>
 								<!-- ket thuc dat mua sp -->
@@ -311,9 +364,11 @@
 								<!-- dat mua sp -->
 								<div class="actions">
 									<button type="button" title="Add to Cart" class="button btn-lg btn-cart prodlist-btn big" onclick="setLocation()"> 
-										<span class="ic-cart glyphicon glyphicon-shopping-cart">
-											Thêm vào giỏ	
-										</span>
+										<a href="cartpage.html">
+											<span class="ic-cart glyphicon glyphicon-shopping-cart">
+												Thêm vào giỏ	
+											</span>
+										</a>
 									</button>
 								</div>
 								<!-- ket thuc dat mua sp -->
@@ -360,9 +415,11 @@
 								<!-- dat mua sp -->
 								<div class="actions">
 									<button type="button" title="Add to Cart" class="button btn-lg btn-cart prodlist-btn big" onclick="setLocation()"> 
-										<span class="ic-cart glyphicon glyphicon-shopping-cart">
-											Thêm vào giỏ	
-										</span>
+										<a href="cartpage.html">
+											<span class="ic-cart glyphicon glyphicon-shopping-cart">
+												Thêm vào giỏ	
+											</span>
+										</a>
 									</button>
 								</div>
 								<!-- ket thuc dat mua sp -->
@@ -413,9 +470,11 @@
 								<!-- dat mua sp -->
 								<div class="actions">
 									<button type="button" title="Add to Cart" class="button btn-lg btn-cart prodlist-btn big" onclick="setLocation()"> 
-										<span class="ic-cart glyphicon glyphicon-shopping-cart">
-											Thêm vào giỏ	
-										</span>
+										<a href="cartpage.html">
+											<span class="ic-cart glyphicon glyphicon-shopping-cart">
+												Thêm vào giỏ	
+											</span>
+										</a>
 									</button>
 								</div>
 								<!-- ket thuc dat mua sp -->
@@ -462,9 +521,11 @@
 								<!-- dat mua sp -->
 								<div class="actions">
 									<button type="button" title="Add to Cart" class="button btn-lg btn-cart prodlist-btn big" onclick="setLocation()"> 
-										<span class="ic-cart glyphicon glyphicon-shopping-cart">
-											Thêm vào giỏ	
-										</span>
+										<a href="cartpage.html">
+											<span class="ic-cart glyphicon glyphicon-shopping-cart">
+												Thêm vào giỏ	
+											</span>
+										</a>
 									</button>
 								</div>
 								<!-- ket thuc dat mua sp -->
@@ -511,9 +572,11 @@
 								<!-- dat mua sp -->
 								<div class="actions">
 									<button type="button" title="Add to Cart" class="button btn-lg btn-cart prodlist-btn big" onclick="setLocation()"> 
-										<span class="ic-cart glyphicon glyphicon-shopping-cart">
-											Thêm vào giỏ	
-										</span>
+										<a href="cartpage.html">
+											<span class="ic-cart glyphicon glyphicon-shopping-cart">
+												Thêm vào giỏ	
+											</span>
+										</a>
 									</button>
 								</div>
 								<!-- ket thuc dat mua sp -->
@@ -560,9 +623,11 @@
 								<!-- dat mua sp -->
 								<div class="actions">
 									<button type="button" title="Add to Cart" class="button btn-lg btn-cart prodlist-btn big" onclick="setLocation()"> 
-										<span class="ic-cart glyphicon glyphicon-shopping-cart">
-											Thêm vào giỏ	
-										</span>
+										<a href="cartpage.html">
+											<span class="ic-cart glyphicon glyphicon-shopping-cart">
+												Thêm vào giỏ	
+											</span>
+										</a>
 									</button>
 								</div>
 								<!-- ket thuc dat mua sp -->
@@ -596,17 +661,17 @@
 			<span><img src="img/bitmap.png"></span>
 
 			<p class="footer-links">
-				<a href="#">Trang chủ</a>
-				·
-				<a href="#">Blog</a>
-				·
-				<a href="#">Pricing</a>
-				·
-				<a href="#">About</a>
-				·
-				<a href="#">Faq</a>
-				·
-				<a href="#">Contact</a>
+				<a href="index.html">Trang chủ</a>
+						·
+						<a href="https://www.facebook.com/acekuto">Blog</a>
+						·
+						<a href="index.html">Pricing</a>
+						·
+						<a href="index.html">About</a>
+						·
+						<a href="index.html">Faq</a>
+						·
+						<a href="index.html">Contact</a>
 			</p>
 
 			<p class="footer-company-name">Toy Store &copy; 2016</p>
@@ -769,7 +834,7 @@
 			$("#loginModal").modal();
 		});
 	});
-<!-- <script>
+	<!-- <script>
 	$(document).ready(function(){
 		$("#li1").hover(function(){
 			$("#ul1").slideToggle("fast");
